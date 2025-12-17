@@ -1,0 +1,129 @@
+# CANARY WELLBEING INSIGHTS - VIDEO VOICEOVER
+# Duration: ~75 seconds
+# Tone: Confident, enthusiastic, professional
+# Pace: Medium with strategic pauses
+
+---
+
+## FULL SCRIPT FOR TEXT-TO-SPEECH:
+
+What if you could see your vocal biomarker technology in action, in a production-ready corporate wellbeing platform, built in just 48 hours?
+
+[PAUSE 1 SECOND]
+
+Meet Canary Wellbeing Insights, a full-stack demo that shows exactly how your API can transform workplace mental health monitoring.
+
+[PAUSE 0.5 SECONDS]
+
+HR teams upload meeting recordings, and watch in real-time as your vocal biomarker API analyzes stress, fatigue, and cognitive load.
+
+[PAUSE 1 SECOND]
+
+The results? Actionable insights HR teams actually need. Stress levels, fatigue index, burnout risk. Minute-by-minute vocal stress tracking. Playback with synchronized stress indicators. AI-powered wellbeing suggestions.
+
+[PAUSE 1 SECOND]
+
+Built with production-grade architecture. WebSocket real-time updates, persistent storage, historical analytics, and PDF exports. All integrated.
+
+[PAUSE 1 SECOND]
+
+Track trends across multiple meetings, identify patterns before they become problems.
+
+[PAUSE 1 SECOND]
+
+This is what your API can power. This is the future of workplace wellbeing.
+
+[PAUSE 1 SECOND]
+
+Let's talk about what we can build together.
+
+---
+
+## TIMING BREAKDOWN:
+- 0:00-0:08 - Opening hook (48 hours line)
+- 0:08-0:20 - Problem + Solution intro
+- 0:20-0:35 - Real-time processing explanation
+- 0:35-0:50 - Key features rapid-fire
+- 0:50-1:05 - Technical architecture details
+- 1:05-1:15 - History and trends value
+- 1:15-1:25 - Call to action + close
+
+---
+
+## TTS SERVICE RECOMMENDATIONS:
+
+### Option 1: ElevenLabs (BEST QUALITY)
+- Voice: Adam (professional, confident)
+- Settings: Stability 75%, Clarity 85%
+- Model: Eleven Multilingual v2
+- URL: https://elevenlabs.io
+
+### Option 2: Google Cloud TTS
+- Voice: en-US-Neural2-D (male, professional)
+- Speaking rate: 1.0
+- Pitch: +2.0
+- URL: https://cloud.google.com/text-to-speech
+
+### Option 3: Amazon Polly
+- Voice: Matthew (Neural)
+- Engine: Neural
+- URL: https://aws.amazon.com/polly/
+
+### Option 4: Play.ht
+- Voice: Adam (Ultra-realistic)
+- Quality: High
+- URL: https://play.ht
+
+### Option 5: Microsoft Azure TTS
+- Voice: en-US-GuyNeural
+- Style: Professional
+- URL: https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/
+
+---
+
+## INSTRUCTIONS FOR TTS PROCESSING:
+
+1. Copy the text between the "FULL SCRIPT" section
+2. Remove [PAUSE X SECONDS] markers or replace with actual pauses in your TTS tool
+3. Use a confident, professional male voice (recommended)
+4. Set speaking rate to medium (1.0x)
+5. Increase pitch slightly (+2 to +5%) for enthusiasm
+6. Export as high-quality audio (320kbps MP3 or WAV)
+
+---
+
+## POST-PROCESSING TIPS:
+
+After generating the voiceover:
+
+1. **Normalize audio** to -3dB peak volume
+2. **Apply gentle compression** (ratio 2:1, threshold -18dB)
+3. **Remove silence** at start/end
+4. **Add subtle background music** (optional, keep at -25dB)
+5. **Export final** as 320kbps MP3 or 16-bit WAV
+
+---
+
+## ALTERNATIVE: SHORTER 45-SECOND VERSION
+
+Canary Wellbeing Insights. A production-ready demo of your vocal biomarker API in action.
+
+[PAUSE 0.5 SECONDS]
+
+Upload meeting audio, watch real-time analysis, get actionable insights on stress, fatigue, and burnout risk.
+
+[PAUSE 0.5 SECONDS]
+
+Built in 48 hours with WebSocket integration, persistent storage, historical analytics, and PDF exports.
+
+[PAUSE 0.5 SECONDS]
+
+This is what your technology can power. Let's build the future of workplace wellbeing together.
+
+---
+
+## NOTES:
+- Total word count: ~140 words (main script)
+- Average speaking pace: 140 words / 75 seconds = 112 WPM (conversational)
+- Key emphasis words: "48 hours", "production-ready", "real-time", "your API"
+- Tone shifts: Start strong → informative middle → powerful close

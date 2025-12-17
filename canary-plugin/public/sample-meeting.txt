@@ -1,0 +1,17 @@
+This is a placeholder file for testing the audio upload feature.
+
+In a real application, you would upload actual meeting audio files (.mp3, .wav, .m4a).
+
+For this demo, you can upload ANY audio file or even this text file -
+the mock API will generate synthetic analysis results regardless of the file type.
+
+The application simulates the Canary Speech API processing and returns
+realistic wellbeing metrics including:
+- Stress scores
+- Fatigue indices
+- Cognitive load measurements
+- Meeting sentiment
+- Burnout risk assessments
+- Minute-by-minute timeline data
+
+Try it out by uploading this file or any audio file you have available!

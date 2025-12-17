@@ -1,0 +1,137 @@
+# 🐦 Canary Wellbeing Insights
+
+### AI-powered corporate wellbeing dashboard (demo MVP)
+
+**Canary Wellbeing Insights** is a demo application built for a Trifetch product trial.
+It showcases how Canary Speech’s vocal-biomarker technology can be extended into a new corporate use case:
+**analyzing Zoom/Meet meeting audio to measure team stress, fatigue, cognitive load, and overall wellbeing.**
+
+This MVP uses **mocked API responses** based on a realistic Canary Speech API spec.
+
+---
+
+## 🚀 Features
+
+* 🎤 **Upload Meeting Audio** — simulate Zoom/Meet plugin capturing meeting voice
+* 🤖 **Mock AI Analysis** — returns stress, fatigue, cognitive load, and sentiment scores
+* 📊 **HR Dashboard** — view team stress trends, department comparison, and burnout risk
+* 🔥 **Meeting Heatmap** — minute-by-minute stress levels
+* 🛡 **Anonymous & Opt-In** — designed for ethical workplace use
+* 🧪 **Realistic Mock API** — consistent with Canary Speech’s voice-analysis model structure
+
+---
+
+## 🧠 How It Works
+
+```
+[Upload Meeting Audio]
+        ↓
+[Mock Canary API]
+        ↓
+[Voice Biomarker Scores]
+        ↓
+[Dashboard: Stress • Fatigue • Cognitive Load • Sentiment]
+```
+
+The app **does not use real Canary Speech models** —
+all responses are generated using mocked analysis data.
+
+---
+
+## 📦 Tech Stack (if applicable)
+
+* Frontend: **React / Next.js** (or your chosen framework)
+* Backend: **Mock API server** (Express.js / Next.js API routes / Flask)
+* Charts: **Chart.js / Recharts**
+* Styling: **TailwindCSS / CSS modules**
+
+(Modify based on what you actually use.)
+
+---
+
+## 🧪 Mock API Specification Overview
+
+### `POST /v1/analyses`
+
+Uploads meeting audio → returns `analysis_id`.
+
+### `GET /v1/analyses/{id}`
+
+Returns biomarker scores:
+
+* `stress_score`
+* `fatigue_index`
+* `cognitive_load`
+* `meeting_sentiment`
+* `timeline` (for heatmap)
+* `burnout_risk`
+
+You can find the full mock API spec inside the project at:
+`/mock-api/README.md` or equivalent.
+
+---
+
+## 📁 Project Structure (example)
+
+```
+/src
+  /components
+  /pages
+  /api-mocks
+  /data
+/mock-api
+README.md
+```
+
+Adjust based on your actual setup.
+
+---
+
+## ▶️ Running the Demo
+
+```
+npm install
+npm run dev
+```
+
+or
+
+```
+yarn install
+yarn dev
+```
+
+The app will start on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📹 Demo Flow (for reviewers)
+
+1. Upload a sample meeting audio file
+2. System simulates Canary API processing
+3. Dashboard updates with:
+
+   * Team stress score
+   * Burnout risk
+   * Meeting sentiment
+   * Timeline heatmap
+4. HR/leadership can view stress trends across teams
+
+---
+
+## 🛡 Disclaimer
+
+This project is **for demonstration purposes only.**
+It does **not** use the official Canary Speech API or any real medical/diagnostic models.
+All data is synthetic and purely illustrative.
+
+---
+
+## 👤 Author
+
+Built by **Gautam** for Trifetch’s product evaluation trial.
+Feedback welcome!
