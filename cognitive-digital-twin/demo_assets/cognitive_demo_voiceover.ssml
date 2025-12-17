@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+
+  <!-- Opening Hook - Strong and confident -->
+  <prosody rate="medium" pitch="+5%" volume="loud">
+    <emphasis level="strong">What if you could predict</emphasis> cognitive decline
+    <break time="300ms"/>
+    up to <emphasis level="strong">two years in advance,</emphasis>
+    <break time="300ms"/>
+    using just <emphasis level="strong">voice and handwriting?</emphasis>
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Introduction - Slightly faster, clear -->
+  <prosody rate="medium" pitch="default" volume="medium">
+    This is our <emphasis level="moderate">AI-powered cognitive decline prediction system</emphasis>,
+    <break time="200ms"/>
+    designed for <emphasis level="moderate">early Alzheimer's detection</emphasis>
+    and patient monitoring.
+  </prosody>
+
+  <break time="600ms"/>
+
+  <!-- Historical Data - Clear and informative -->
+  <prosody rate="medium" volume="medium">
+    The blue dots show this patient's historical cognitive scores
+    <break time="200ms"/>
+    over twelve months.
+  </prosody>
+
+  <break time="500ms"/>
+
+  <!-- Prediction Reveal - Build excitement -->
+  <prosody rate="medium" pitch="+3%" volume="medium">
+    Our multimodal AI model analyzes
+    <break time="200ms"/>
+    speech patterns,
+    <break time="150ms"/>
+    handwriting dynamics,
+    <break time="150ms"/>
+    and patient history
+    <break time="300ms"/>
+    to generate <emphasis level="strong">accurate predictions</emphasis>
+    eighteen and twenty-four months ahead.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Confidence Intervals - Professional tone -->
+  <prosody rate="medium" volume="medium">
+    The orange line shows our prediction,
+    <break time="200ms"/>
+    with shaded confidence intervals
+    <break time="200ms"/>
+    showing the range of uncertainty.
+  </prosody>
+
+  <break time="600ms"/>
+
+  <!-- Current Status - Clear delivery -->
+  <prosody rate="medium" volume="medium">
+    This patient is currently at eighty-eight points,
+    <break time="300ms"/>
+    with our model predicting a gradual decline
+    <break time="200ms"/>
+    over the next two years.
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- What-If Introduction - Enthusiastic -->
+  <prosody rate="medium" pitch="+4%" volume="medium">
+    But here's where it gets <emphasis level="moderate">powerful.</emphasis>
+    <break time="400ms"/>
+    What if this patient improves their sleep
+    <break time="200ms"/>
+    by just <emphasis level="strong">two hours</emphasis> per night?
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Live Demo Action - Build anticipation -->
+  <prosody rate="medium" pitch="+3%" volume="medium">
+    Watch as the prediction curve
+    <break time="200ms"/>
+    shifts <emphasis level="moderate">upward</emphasis> in real-time.
+  </prosody>
+
+  <break time="1200ms"/>
+
+  <!-- Results Explanation - Clear and confident -->
+  <prosody rate="medium" volume="medium">
+    The model shows the patient could maintain
+    <break time="200ms"/>
+    <emphasis level="moderate">two to three points higher</emphasis>
+    <break time="200ms"/>
+    with this simple lifestyle change.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Second Intervention - Clear delivery -->
+  <prosody rate="medium" volume="medium">
+    Now let's add <emphasis level="moderate">twenty percent more</emphasis>
+    physical activity.
+  </prosody>
+
+  <break time="1200ms"/>
+
+  <!-- Combined Impact - Enthusiastic -->
+  <prosody rate="medium" pitch="+4%" volume="medium">
+    The combined interventions show
+    <break time="200ms"/>
+    even <emphasis level="strong">greater improvement.</emphasis>
+    <break time="400ms"/>
+    The gray line is the baseline,
+    <break time="200ms"/>
+    and the green line shows
+    <break time="200ms"/>
+    the healthier trajectory.
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- Impact Analysis - Clear and impressive -->
+  <prosody rate="medium" volume="medium">
+    The impact analysis reveals
+    <break time="200ms"/>
+    this patient could gain
+    <break time="200ms"/>
+    over <emphasis level="strong">three points</emphasis>
+    at the twenty-four month mark
+    <break time="300ms"/>
+    through these lifestyle changes.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Technical Credibility - Slightly faster, confident -->
+  <prosody rate="fast" pitch="+2%" volume="medium">
+    Built with <emphasis level="moderate">production-grade deep learning:</emphasis>
+    <break time="300ms"/>
+    wav2vec2 for speech analysis,
+    <break time="150ms"/>
+    transformer fusion,
+    <break time="150ms"/>
+    GRU forecasting,
+    <break time="150ms"/>
+    and Monte Carlo dropout
+    <break time="200ms"/>
+    for confidence intervals.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Performance Metrics - Authoritative -->
+  <prosody rate="medium" volume="medium">
+    Trained on one hundred patients,
+    <break time="300ms"/>
+    achieving <emphasis level="moderate">one point nine six</emphasis>
+    mean absolute error.
+    <break time="400ms"/>
+    Inference in under <emphasis level="moderate">fifty milliseconds.</emphasis>
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- Clinical Value - Smooth and impactful -->
+  <prosody rate="medium" pitch="+3%" volume="medium">
+    This system empowers healthcare providers
+    <break time="300ms"/>
+    to have <emphasis level="strong">data-driven conversations</emphasis>
+    with patients
+    <break time="300ms"/>
+    about the real impact of their daily choices.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Use Cases - Clear enumeration -->
+  <prosody rate="medium" volume="medium">
+    Early intervention planning.
+    <break time="300ms"/>
+    Treatment response monitoring.
+    <break time="300ms"/>
+    Clinical trial endpoints.
+    <break time="300ms"/>
+    Personalized care recommendations.
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- Call to Action - Strong finish -->
+  <prosody rate="medium" pitch="+5%" volume="loud">
+    <emphasis level="strong">This is the future</emphasis>
+    of cognitive health monitoring.
+    <break time="400ms"/>
+    <emphasis level="strong">This is what AI can do</emphasis>
+    for Alzheimer's care.
+  </prosody>
+
+  <break time="1200ms"/>
+
+  <!-- Final tag - Confident and inviting -->
+  <prosody rate="slow" pitch="default" volume="medium">
+    Ready for clinical deployment.
+    <break time="400ms"/>
+    Built by <emphasis level="moderate">Trifetch.</emphasis>
+  </prosody>
+
+</speak>

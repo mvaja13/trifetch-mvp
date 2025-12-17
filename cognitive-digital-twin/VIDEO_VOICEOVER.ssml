@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">
+
+  <!-- Opening Hook - Strong and confident -->
+  <prosody rate="medium" pitch="+5%" volume="loud">
+    <emphasis level="strong">What if you could see</emphasis> your vocal biomarker technology in action,
+    <break time="300ms"/>
+    in a <emphasis level="strong">production-ready</emphasis> corporate wellbeing platform,
+    <break time="300ms"/>
+    built in just <emphasis level="strong">8 hours?</emphasis>
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Problem + Solution - Slightly faster, enthusiastic -->
+  <prosody rate="medium" pitch="default" volume="medium">
+    Meet <emphasis level="moderate">Canary Wellbeing Insights</emphasis>,
+    <break time="200ms"/>
+    a full-stack demo that shows exactly how <emphasis level="moderate">your API</emphasis>
+    can transform workplace mental health monitoring.
+  </prosody>
+
+  <break time="500ms"/>
+
+  <!-- Upload Action - Clear and direct -->
+  <prosody rate="medium" volume="medium">
+    HR teams upload meeting recordings...
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- Real-time Processing - Build excitement -->
+  <prosody rate="medium" pitch="+3%" volume="medium">
+    ...and watch in <emphasis level="strong">real-time</emphasis>
+    as your vocal biomarker API analyzes
+    <break time="200ms"/>
+    stress,
+    <break time="100ms"/>
+    fatigue,
+    <break time="100ms"/>
+    and cognitive load.
+  </prosody>
+
+  <break time="1200ms"/>
+
+  <!-- Key Features - Confident delivery -->
+  <prosody rate="medium" volume="medium">
+    The results?
+    <break time="300ms"/>
+    <emphasis level="moderate">Actionable insights</emphasis> HR teams actually need:
+  </prosody>
+
+  <break time="500ms"/>
+
+  <!-- Feature List - Clear enumeration -->
+  <prosody rate="medium" volume="medium">
+    Stress levels, fatigue index, burnout risk.
+    <break time="400ms"/>
+    Minute-by-minute vocal stress tracking.
+    <break time="400ms"/>
+    Playback with synchronized stress indicators.
+    <break time="400ms"/>
+    AI-powered wellbeing suggestions.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- Technical Depth - Slightly faster, impressive -->
+  <prosody rate="fast" pitch="+2%" volume="medium">
+    Built with <emphasis level="moderate">production-grade architecture</emphasis>:
+    <break time="300ms"/>
+    WebSocket real-time updates,
+    <break time="150ms"/>
+    persistent storage,
+    <break time="150ms"/>
+    historical analytics,
+    <break time="150ms"/>
+    and PDF exports.
+    <break time="200ms"/>
+    All integrated.
+  </prosody>
+
+  <break time="800ms"/>
+
+  <!-- History & Trends - Smooth and informative -->
+  <prosody rate="medium" volume="medium">
+    Track trends across multiple meetings,
+    <break time="300ms"/>
+    identify patterns before they become problems.
+  </prosody>
+
+  <break time="1000ms"/>
+
+  <!-- Call to Action - Strong finish -->
+  <prosody rate="medium" pitch="+5%" volume="loud">
+    <emphasis level="strong">This is what your API can power.</emphasis>
+    <break time="400ms"/>
+    <emphasis level="strong">This is the future</emphasis> of workplace wellbeing.
+  </prosody>
+
+  <break time="1200ms"/>
+
+  <!-- Final tag - Confident and inviting -->
+  <prosody rate="slow" pitch="default" volume="medium">
+    Let's talk about what we can build <emphasis level="moderate">together.</emphasis>
+  </prosody>
+
+</speak>

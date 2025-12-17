@@ -1,0 +1,564 @@
+===============================================================================
+RECORDING INSTRUCTIONS - COGNITIVE DECLINE PREDICTION DEMO
+===============================================================================
+
+This guide provides step-by-step instructions for recording demo materials
+for the cognitive decline prediction system.
+
+===============================================================================
+PART 1: AUDIO RECORDINGS (Speech Samples)
+===============================================================================
+
+Purpose: Create 5 sample audio clips to simulate patient speech data
+Duration: 6-20 seconds each
+Format: WAV, 16kHz sample rate
+
+-------------------------------------------------------------------------------
+Recording Setup
+-------------------------------------------------------------------------------
+
+Equipment:
+  • Built-in microphone (laptop/phone) OR USB microphone
+  • Quiet room with minimal background noise
+  • Close doors, turn off fans/AC if possible
+
+Software Options:
+  macOS:
+    • QuickTime Player (File > New Audio Recording)
+    • GarageBand
+    • Audacity (free)
+
+  Windows:
+    • Voice Recorder (built-in)
+    • Audacity (free)
+
+  Mobile:
+    • Voice Memos (iOS)
+    • Voice Recorder (Android)
+
+-------------------------------------------------------------------------------
+Recording Instructions
+-------------------------------------------------------------------------------
+
+1. Test Your Setup:
+   • Record 5 seconds of counting: "1, 2, 3, 4, 5"
+   • Play back to ensure:
+     ✓ Volume is appropriate (not too quiet/loud)
+     ✓ No background noise/echo
+     ✓ Clear voice quality
+
+2. Record 5 Sample Clips:
+
+   Clip 1 (10-15 seconds): "Cookie Theft" Description
+   -------------------------------------------------
+   Script:
+   "In this picture, I see a woman doing dishes in the kitchen.
+   She doesn't notice that water is overflowing from the sink.
+   Two children are behind her, and one is reaching for cookies
+   in the cupboard while standing on a stool."
+
+   Tips:
+   • Speak naturally, at conversational pace
+   • Slight pauses between sentences are OK
+
+   Clip 2 (8-12 seconds): Counting Task
+   ------------------------------------
+   Script:
+   "One, two, three, four, five, six, seven, eight, nine, ten.
+   Ten, nine, eight, seven, six, five, four, three, two, one."
+
+   Tips:
+   • Count at moderate speed
+   • Clear enunciation of each number
+
+   Clip 3 (6-10 seconds): Animal Naming
+   ------------------------------------
+   Script:
+   "Dog, cat, elephant, giraffe, lion, tiger, bear, monkey,
+   zebra, horse."
+
+   Tips:
+   • One animal per second
+   • Brief pause between each animal
+
+   Clip 4 (12-18 seconds): Story Recall
+   ------------------------------------
+   Script:
+   "Last summer, my family and I went to the beach.
+   We spent the whole day swimming in the ocean.
+   The children built a large sandcastle.
+   In the evening, we watched the sunset together."
+
+   Tips:
+   • Natural storytelling tone
+   • Slight emphasis on key words
+
+   Clip 5 (10-15 seconds): Free Description
+   ----------------------------------------
+   Script:
+   "I enjoy gardening in the spring. My favorite flowers
+   are roses and tulips. I usually spend about an hour
+   each morning tending to the plants."
+
+   Tips:
+   • Conversational, personal tone
+   • Vary pitch naturally
+
+3. Save Files:
+   • File names: sample_00.wav through sample_04.wav
+   • Format: WAV (16kHz, 16-bit)
+   • Location: data/sample_audio/
+
+4. Conversion (if needed):
+   If your recordings aren't in WAV format:
+
+   Using FFmpeg:
+   ```bash
+   ffmpeg -i input.m4a -ar 16000 -ac 1 output.wav
+   ```
+
+   Using Audacity:
+   • File > Export > Export as WAV
+   • Sample Rate: 16000 Hz
+   • Channels: Mono
+
+===============================================================================
+PART 2: STYLUS TRACE RECORDING (Handwriting Simulation)
+===============================================================================
+
+Purpose: Capture handwriting/drawing movements for stylus analysis
+Duration: 20-30 seconds
+Format: Screen recording of cursor movement OR tablet input
+
+-------------------------------------------------------------------------------
+Option A: Tablet/iPad with Stylus (Preferred)
+-------------------------------------------------------------------------------
+
+Equipment:
+  • iPad with Apple Pencil OR
+  • Wacom tablet OR
+  • Any touchscreen with stylus support
+
+Apps to Use:
+  • Notes (iOS/iPadOS)
+  • OneNote
+  • Any drawing/note-taking app
+
+Recording Instructions:
+1. Open drawing app with blank canvas
+2. Start screen recording
+3. Perform these tasks (2-3 seconds each):
+   a. Draw a large circle (clockwise)
+   b. Draw a square
+   c. Write the word "CLOCK" in cursive
+   d. Draw clock face with numbers 12, 3, 6, 9
+   e. Draw clock hands pointing to 3:00
+   f. Sign your name in cursive
+   g. Draw a spiral (outward)
+   h. Draw a series of overlapping circles
+4. Stop recording
+5. Export as MP4 video
+
+Tips:
+  • Use natural writing speed (not too fast/slow)
+  • Apply normal pressure
+  • If you make a mistake, keep going (realistic)
+
+-------------------------------------------------------------------------------
+Option B: Mouse/Trackpad Simulation
+-------------------------------------------------------------------------------
+
+If no stylus available, use mouse to simulate handwriting:
+
+Setup:
+  • Open paint/drawing program (Paint, Preview, etc.)
+  • Set brush size to medium (3-5px)
+  • Choose black color
+  • Blank white canvas
+
+Recording Instructions:
+1. Start screen recording
+2. Use mouse to slowly trace:
+   a. Large circle
+   b. Square
+   c. Figure-eight shape
+   d. Spiral pattern
+   e. Your signature (slowly)
+3. Stop recording
+
+Tips:
+  • Move mouse slower than normal
+  • Maintain steady pressure (hold mouse button down)
+  • Quality will be lower, but usable for demo
+
+-------------------------------------------------------------------------------
+Option C: Generate Synthetic Traces (Already Done)
+-------------------------------------------------------------------------------
+
+The project already includes synthetic stylus traces in:
+  data/synthetic/stylus_traces/*.json
+
+These contain:
+  • X, Y coordinates
+  • Timestamps
+  • Pressure values
+  • Summary statistics
+
+If real handwriting capture is too difficult, these synthetic traces
+are sufficient for the demo.
+
+===============================================================================
+PART 3: SCREEN RECORDING (Streamlit App)
+===============================================================================
+
+Purpose: Record interactive demo of the Streamlit application
+Duration: 45-60 seconds
+Format: MP4 video (1080p)
+
+-------------------------------------------------------------------------------
+Pre-Recording Checklist
+-------------------------------------------------------------------------------
+
+System Preparation:
+☐ Close unnecessary applications
+☐ Disable notifications (Do Not Disturb mode)
+☐ Hide desktop icons (optional)
+☐ Clear browser history/bookmarks bar
+☐ Set display resolution to 1920x1080
+
+Streamlit App Preparation:
+☐ Activate virtual environment: source .venv/bin/activate
+☐ Launch app: streamlit run src/app.py
+☐ Wait for app to fully load
+☐ Test all sliders and controls
+☐ Select demo patient (P005 recommended)
+☐ Set browser zoom to 125-150% for readability
+
+Screen Recording Software:
+  macOS:
+    • QuickTime Player (File > New Screen Recording)
+    • ScreenFlow (paid)
+    • OBS Studio (free, powerful)
+
+  Windows:
+    • Xbox Game Bar (Win + G)
+    • OBS Studio (free)
+    • Camtasia (paid)
+
+  Settings:
+    ✓ Resolution: 1920x1080 (Full HD)
+    ✓ Frame Rate: 30 fps minimum
+    ✓ Audio: Disable (add voiceover later)
+
+-------------------------------------------------------------------------------
+Recording Script
+-------------------------------------------------------------------------------
+
+Follow the storyboard.txt scene-by-scene guide:
+
+Scene 1 (5s): Title Screen
+  • Create in PowerPoint/Keynote
+  • Text: "Cognitive Decline Prediction System"
+  • Clean background
+  • Record screen of slide
+
+Scene 2 (7s): Patient Selection
+  • Show Streamlit app loaded
+  • Hover over patient dropdown
+  • Select patient P005
+  • Pause to show patient info
+
+Scene 3 (10s): Prediction Visualization
+  • Let plot be fully visible
+  • Slowly pan/zoom to show details (editing)
+  • OR keep static and highlight in post-production
+
+Scene 4 (13s): What-If Sliders
+  • Slowly adjust sleep slider from 0 to +2
+  • Pause 1 second
+  • Adjust activity slider from 0 to +20
+  • Pause 1 second
+  • Show impact metrics
+
+Scene 5 (7s): Impact Metrics
+  • Scroll to predictions table
+  • Keep visible for 3-4 seconds
+  • Optional zoom in editing
+
+Scene 6 (8s): Pipeline Overview
+  • Quick cuts of:
+    - Training curves plot
+    - Terminal showing inference
+    - OR simple slides with icons
+
+Scene 7 (10s): Closing
+  • Credits slide
+  • Contact information
+
+-------------------------------------------------------------------------------
+Recording Tips
+-------------------------------------------------------------------------------
+
+Mouse Movement:
+  • Move slowly and deliberately
+  • No random movements
+  • Click precisely on targets
+  • Use keyboard shortcuts to minimize mouse travel
+
+Timing:
+  • Pause 1-2 seconds after each action
+  • Don't rush through interactions
+  • Allow time for UI updates
+
+Mistakes:
+  • If you make a mistake, pause 3 seconds and continue
+  • Easy to edit out later
+  • Better to record once with minor mistakes than retry many times
+
+Take Multiple Recordings:
+  • Record 2-3 full takes
+  • Choose best one in editing
+  • Can splice together best parts
+
+===============================================================================
+PART 4: POST-PRODUCTION & EDITING
+===============================================================================
+
+-------------------------------------------------------------------------------
+Basic Editing Workflow
+-------------------------------------------------------------------------------
+
+Software Options:
+  Free:
+    • iMovie (macOS)
+    • Windows Video Editor (Windows)
+    • DaVinci Resolve (advanced, free)
+
+  Paid:
+    • Final Cut Pro (macOS)
+    • Adobe Premiere Pro
+    • Camtasia
+
+Editing Steps:
+1. Import screen recording
+2. Import voiceover audio (if separate)
+3. Trim beginning/end
+4. Cut out mistakes
+5. Sync audio with video
+6. Add transitions (fade, crossfade)
+7. Add text overlays for statistics
+8. Add highlight boxes/arrows for emphasis
+9. Export final video
+
+-------------------------------------------------------------------------------
+Voiceover Recording
+-------------------------------------------------------------------------------
+
+Setup:
+  • Same audio setup as Part 1
+  • Script written out (see storyboard.txt)
+  • Practice 2-3 times before recording
+
+Recording:
+  • Record entire voiceover in one take
+  • Speak clearly at moderate pace
+  • Professional but friendly tone
+  • Emphasize key phrases
+
+Sync to Video:
+  • Import voiceover to video editor
+  • Align narration with corresponding visuals
+  • Adjust timing as needed
+  • Ensure smooth transitions
+
+-------------------------------------------------------------------------------
+Visual Enhancements (Optional)
+-------------------------------------------------------------------------------
+
+Highlight Boxes:
+  • Red/yellow boxes around UI elements
+  • Arrows pointing to key features
+  • Fade in/out smoothly
+
+Text Overlays:
+  • Statistics: "Test MAE: 2.87 points"
+  • Feature labels: "95% Confidence Interval"
+  • Keep on screen 2-3 seconds
+
+Zoom Effects:
+  • Zoom into small text/numbers
+  • Smooth zoom (not jarring)
+  • Use sparingly
+
+Transitions:
+  • Fade between major sections
+  • Crossfade for smooth flow
+  • Avoid flashy effects
+
+-------------------------------------------------------------------------------
+Export Settings
+-------------------------------------------------------------------------------
+
+Recommended Settings:
+  Format: MP4 (H.264)
+  Resolution: 1920x1080 (Full HD)
+  Frame Rate: 30 fps
+  Bitrate: 5-10 Mbps (higher for better quality)
+  Audio: AAC, 192 kbps
+
+File Size:
+  • 60-second video at 1080p, 30fps: ~50-100 MB
+  • Compress if needed for email (< 25 MB)
+
+Quality Check:
+  ☐ All text is readable
+  ☐ Audio is clear and synchronized
+  ☐ No stuttering or frame drops
+  ☐ Smooth transitions
+  ☐ Professional appearance
+
+===============================================================================
+PART 5: TROUBLESHOOTING
+===============================================================================
+
+-------------------------------------------------------------------------------
+Audio Issues
+-------------------------------------------------------------------------------
+
+Problem: Background noise
+Solution:
+  • Use noise reduction in Audacity
+  • Effect > Noise Reduction
+  • Re-record in quieter location
+
+Problem: Audio too quiet
+Solution:
+  • Use amplify effect in editor
+  • Normalize audio to -3dB
+  • Or adjust microphone gain
+
+Problem: Echo/reverb
+Solution:
+  • Record in smaller room
+  • Add soft furnishings (blankets, pillows)
+  • Use directional microphone
+
+-------------------------------------------------------------------------------
+Video Issues
+-------------------------------------------------------------------------------
+
+Problem: Low frame rate (choppy)
+Solution:
+  • Close background applications
+  • Lower recording resolution temporarily
+  • Use dedicated screen recording software
+
+Problem: Streamlit app not loading
+Solution:
+  • Check virtual environment is activated
+  • Verify checkpoint file exists
+  • Try: streamlit run src/app.py --server.port 8502
+
+Problem: Text too small in recording
+Solution:
+  • Increase browser zoom (150-200%)
+  • Record at higher resolution
+  • Add zoom effects in post-production
+
+-------------------------------------------------------------------------------
+Editing Issues
+-------------------------------------------------------------------------------
+
+Problem: Audio/video out of sync
+Solution:
+  • Use clapboard technique (clap at start)
+  • Sync to visual cues (button clicks)
+  • Adjust audio offset in editor
+
+Problem: Large file size
+Solution:
+  • Lower bitrate to 3-5 Mbps
+  • Use HandBrake for compression
+  • Export at 720p instead of 1080p
+
+===============================================================================
+PART 6: DELIVERY & DISTRIBUTION
+===============================================================================
+
+File Organization:
+-----------------
+demo_assets/
+├── raw_recordings/
+│   ├── audio_samples/      (5 WAV files)
+│   ├── stylus_traces/      (video or JSON)
+│   └── screen_recording/   (raw MP4)
+├── edited/
+│   ├── final_demo_60s.mp4
+│   ├── short_version_30s.mp4
+│   └── extended_90s.mp4
+└── deliverables/
+    ├── youtube_version.mp4
+    ├── email_compressed.mp4
+    └── presentation_embed.mp4
+
+Upload Locations:
+----------------
+• YouTube (unlisted): For sharing links
+• Google Drive/Dropbox: For team access
+• Company website: Embedded demo
+• Social media: LinkedIn, Twitter
+
+Metadata for Upload:
+-------------------
+Title: "Cognitive Decline Prediction - AI-Powered Alzheimer's Forecasting Demo"
+Description: "Interactive demo of multimodal AI system for predicting cognitive decline..."
+Tags: AI, machine learning, healthcare, Alzheimer's, prediction, demo
+Category: Science & Technology
+
+===============================================================================
+ESTIMATED TIME REQUIREMENTS
+===============================================================================
+
+Audio Recording (Part 1):     30-60 minutes
+Stylus Recording (Part 2):    15-30 minutes (or skip if using synthetic)
+Screen Recording (Part 3):    30-60 minutes (including setup & retakes)
+Video Editing (Part 4):       2-4 hours (first time)
+Voiceover Recording:          30-60 minutes
+Final Export & Review:        30 minutes
+
+TOTAL: 4-6 hours for complete demo production
+
+===============================================================================
+FINAL CHECKLIST
+===============================================================================
+
+☐ 5 audio samples recorded and saved
+☐ Stylus traces captured (or using synthetic)
+☐ Screen recording completed (45-60s)
+☐ Voiceover script written and recorded
+☐ Video edited with transitions
+☐ Text overlays and highlights added
+☐ Audio synchronized perfectly
+☐ Final video exported at 1080p
+☐ Quality check passed (text readable, audio clear)
+☐ File saved in multiple formats/versions
+☐ Uploaded to sharing platform
+☐ Links shared with team
+
+===============================================================================
+SUPPORT & RESOURCES
+===============================================================================
+
+Documentation:
+  • storyboard.txt - Scene breakdown and timing
+  • PHASE_5_COMPLETE.md - Streamlit app guide
+  • README.md - Project overview
+
+Software Downloads:
+  • Audacity: https://www.audacityteam.org/
+  • OBS Studio: https://obsproject.com/
+  • HandBrake: https://handbrake.fr/
+
+Questions? Check the project documentation or contact the ML team.
+
+===============================================================================

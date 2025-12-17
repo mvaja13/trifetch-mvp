@@ -1,0 +1,279 @@
+===============================================================================
+LIVE DEMO VOICEOVER SCRIPT - STREAMLIT APP
+===============================================================================
+
+SIMPLE FORMAT: You demo the app, voiceover plays in background
+DURATION: 60 seconds
+ACTIONS: Follow the [ACTION] prompts while voice plays
+
+===============================================================================
+FULL SCRIPT (Copy this into ElevenLabs)
+===============================================================================
+
+This is our AI-powered system for predicting cognitive decline in Alzheimer's patients.
+
+[pause]
+
+The app shows historical cognitive scores as blue dots, and our model predicts future scores up to twenty-four months ahead, shown in orange with confidence intervals.
+
+[pause]
+
+This patient is currently at eighty-eight points. Our prediction shows a gradual decline over the next two years.
+
+[pause]
+
+Now, let's explore a what-if scenario. What if this patient improves their sleep by two hours per night?
+
+[pause]
+
+Watch as the prediction curve shifts upward. The model shows the patient could maintain two to three points higher scores with this simple intervention.
+
+[pause]
+
+Let's also increase physical activity by twenty percent.
+
+[pause]
+
+The combined interventions show even more improvement. The gray line shows the baseline, and the green line shows the healthier trajectory.
+
+[pause]
+
+The impact analysis shows the patient could gain over three points at the twenty-four month mark through these lifestyle changes.
+
+[pause]
+
+This system helps healthcare providers have data-driven conversations with patients about the real impact of their daily choices.
+
+[pause]
+
+Ready for clinical deployment. Built by Trifetch.
+
+
+===============================================================================
+ACTIONS TO PERFORM (While voiceover plays)
+===============================================================================
+
+[0-8s] "This is our AI-powered system..."
+ACTION: Show app homepage with patient selected
+        Let the plot be visible
+        Don't touch anything yet
+
+[8-18s] "The app shows historical cognitive scores..."
+ACTION: Hover mouse over the plot
+        Point to blue dots (historical)
+        Point to orange line (predictions)
+        Point to shaded area (confidence)
+
+[18-24s] "This patient is currently at eighty-eight points..."
+ACTION: Show the patient info in sidebar
+        Keep plot visible
+
+[24-30s] "Now, let's explore a what-if scenario..."
+ACTION: Start moving sleep slider slowly
+        Move from 0 to +2 hours
+
+[30-38s] "Watch as the prediction curve shifts upward..."
+ACTION: Let the plot update
+        Pause to show the change
+        Gray baseline appears
+
+[38-44s] "Let's also increase physical activity..."
+ACTION: Move activity slider slowly
+        Move from 0 to +20%
+
+[44-50s] "The combined interventions show even more improvement..."
+ACTION: Let plot fully update
+        Show both interventions active
+        Point to green line vs gray baseline
+
+[50-56s] "The impact analysis shows..."
+ACTION: Scroll down to impact metrics
+        Show the +3 points improvement
+
+[56-60s] "This system helps healthcare providers..."
+ACTION: Scroll back up to show full interface
+
+[60-63s] "Ready for clinical deployment..."
+ACTION: Pause on the final view
+
+
+===============================================================================
+QUICK REFERENCE CARD (Print this out!)
+===============================================================================
+
+Time  | Say                              | Do
+------|----------------------------------|---------------------------
+0-8s  | "AI-powered system..."           | Show app, don't touch
+8-18s | "Historical scores..."           | Hover over plot elements
+18-24s| "Patient at 88 points..."        | Show sidebar info
+24-30s| "What-if scenario..."            | Move sleep slider to +2
+30-38s| "Curve shifts upward..."         | Wait, let it update
+38-44s| "Increase physical activity..."  | Move activity to +20%
+44-50s| "Combined interventions..."      | Show green vs gray lines
+50-56s| "Impact analysis..."             | Scroll to metrics
+56-60s| "Data-driven conversations..."   | Scroll to full view
+60-63s| "Ready for deployment..."        | Pause, end
+
+
+===============================================================================
+ELEVENLABS SETTINGS
+===============================================================================
+
+Voice: Adam (professional, clear)
+Stability: 50%
+Clarity: 75%
+Speed: 0.95x (slightly slower for demo pacing)
+
+Alternative voices:
+- Bella (professional female)
+- Josh (friendly male)
+
+
+===============================================================================
+PRACTICE TIPS
+===============================================================================
+
+1. Generate the voiceover first
+2. Play it while practicing mouse movements
+3. Time your actions to match the voice
+4. Practice 2-3 times before recording
+5. Record screen + voiceover together
+
+TIMING TRICK: Add [pause] markers where you need more time
+              ElevenLabs will add natural pauses
+
+
+===============================================================================
+RECORDING SETUP
+===============================================================================
+
+BEFORE YOU START:
+1. Launch Streamlit app: streamlit run src/app.py
+2. Select patient P005 (good example patient)
+3. Reset all sliders to 0
+4. Set browser zoom to 150% (for readability)
+5. Hide desktop icons/notifications
+
+RECORDING:
+1. Start playing voiceover MP3
+2. Immediately start screen recording
+3. Follow actions in sync with voice
+4. Don't stop if you make small mistake
+5. Can edit out pauses later
+
+SOFTWARE:
+- macOS: QuickTime (Cmd+Shift+5, select screen + mic)
+- Windows: OBS Studio (free) or Xbox Game Bar (Win+G)
+- Set audio source: "System Audio" + voiceover playing
+
+
+===============================================================================
+SIMPLIFIED VERSION (30 seconds)
+===============================================================================
+
+If you want a shorter demo, use this:
+
+---
+This is our cognitive decline prediction system.
+
+The blue dots show historical scores, and the orange line predicts twenty-four months ahead.
+
+Watch what happens when we improve sleep and increase physical activity.
+
+The prediction shifts upward, showing the patient could gain three points through these simple lifestyle changes.
+
+Data-driven healthcare, ready for clinical use.
+---
+
+ACTIONS:
+[0-8s]  Show app
+[8-12s] Point to plot elements
+[12-20s] Move both sliders
+[20-26s] Show improved prediction
+[26-30s] Show impact metrics
+
+
+===============================================================================
+EVEN SIMPLER (15 seconds - Ultra Quick)
+===============================================================================
+
+For social media / quick demos:
+
+---
+Predicting cognitive decline twenty-four months ahead. Adjust lifestyle factors to see the impact. Better sleep and more activity equals better outcomes.
+---
+
+ACTIONS:
+[0-5s]  Show plot
+[5-10s] Move sliders
+[10-15s] Show result
+
+
+===============================================================================
+CHARACTER COUNT
+===============================================================================
+
+Full script (60s): ~620 characters
+Simplified (30s): ~280 characters
+Ultra quick (15s): ~135 characters
+
+All within ElevenLabs free tier (10,000/month)
+
+
+===============================================================================
+TROUBLESHOOTING
+===============================================================================
+
+Problem: Voice too fast
+Solution: In ElevenLabs, set Speed to 0.85x or 0.9x
+
+Problem: Actions don't match timing
+Solution: Add more [pause] markers in the script
+
+Problem: Plot doesn't update in time
+Solution: Move sliders slower, or add pauses in script
+
+Problem: Can't sync voice with screen recording
+Solution: Record screen first, add voiceover in editing
+
+
+===============================================================================
+FINAL CHECKLIST
+===============================================================================
+
+Before recording:
+☐ App running on localhost:8501
+☐ Patient P005 selected
+☐ All sliders at 0
+☐ Browser zoom at 150%
+☐ Voiceover MP3 generated and tested
+☐ Screen recording software ready
+☐ Notifications disabled
+☐ Practice run completed
+
+During recording:
+☐ Start voiceover playback
+☐ Start screen recording immediately
+☐ Follow action timing
+☐ Smooth mouse movements
+☐ Don't rush
+
+After recording:
+☐ Review video
+☐ Check audio/video sync
+☐ Trim beginning/end if needed
+☐ Export as MP4
+
+
+===============================================================================
+ONE-SENTENCE SUMMARY FOR EACH SECTION
+===============================================================================
+
+Intro: "This is an AI system for predicting cognitive decline."
+Plot: "Historical scores in blue, predictions in orange."
+What-if: "Adjust lifestyle factors to see the impact."
+Results: "Better choices lead to better outcomes."
+Closing: "Ready for clinical use."
+
+
+===============================================================================

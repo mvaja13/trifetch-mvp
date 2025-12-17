@@ -1,0 +1,128 @@
+===============================================================================
+QUICK START - RECORD YOUR DEMO IN 3 STEPS
+===============================================================================
+
+STEP 1: GENERATE VOICEOVER (2 minutes)
+---------------------------------------
+1. Go to https://elevenlabs.io (sign up free)
+2. Copy this text and paste it:
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│  This is our AI-powered system for predicting cognitive decline        │
+│  in Alzheimer's patients.                                              │
+│                                                                         │
+│  The app shows historical cognitive scores as blue dots, and our       │
+│  model predicts future scores up to twenty-four months ahead,          │
+│  shown in orange with confidence intervals.                            │
+│                                                                         │
+│  This patient is currently at eighty-eight points. Our prediction      │
+│  shows a gradual decline over the next two years.                      │
+│                                                                         │
+│  Now, let's explore a what-if scenario. What if this patient           │
+│  improves their sleep by two hours per night?                          │
+│                                                                         │
+│  Watch as the prediction curve shifts upward. The model shows          │
+│  the patient could maintain two to three points higher scores          │
+│  with this simple intervention.                                        │
+│                                                                         │
+│  Let's also increase physical activity by twenty percent.              │
+│                                                                         │
+│  The combined interventions show even more improvement.                │
+│  The gray line shows the baseline, and the green line shows            │
+│  the healthier trajectory.                                             │
+│                                                                         │
+│  The impact analysis shows the patient could gain over three           │
+│  points at the twenty-four month mark through these lifestyle          │
+│  changes.                                                              │
+│                                                                         │
+│  This system helps healthcare providers have data-driven               │
+│  conversations with patients about the real impact of their            │
+│  daily choices.                                                        │
+│                                                                         │
+│  Ready for clinical deployment. Built by Trifetch.                     │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+3. Select voice: "Adam"
+4. Click "Generate" → Download MP3
+5. Save as: demo_voiceover.mp3
+
+
+STEP 2: SET UP APP (1 minute)
+------------------------------
+1. Open terminal
+2. Run: streamlit run src/app.py
+3. In browser:
+   - Select patient: P005
+   - Reset sliders to 0
+   - Set zoom to 150% (Cmd/Ctrl + Plus)
+
+
+STEP 3: RECORD (5 minutes)
+---------------------------
+macOS:
+  1. Press Cmd+Shift+5
+  2. Click "Record Entire Screen"
+  3. In options, enable "Microphone"
+  4. Click "Record"
+  5. Play demo_voiceover.mp3
+  6. Follow actions below
+
+Windows:
+  1. Press Win+G (Xbox Game Bar)
+  2. Click record button
+  3. Play demo_voiceover.mp3
+  4. Follow actions below
+
+
+ACTIONS TO DO (while voiceover plays):
+---------------------------------------
+
+0-10s:   Just show the app (don't touch anything)
+
+10-20s:  Hover mouse over plot:
+         - Point to blue dots
+         - Point to orange line
+         - Point to shaded area
+
+20-30s:  Move sleep slider: 0 → +2 hours (slowly!)
+
+30-40s:  Wait... let plot update... show the change
+
+40-45s:  Move activity slider: 0 → +20% (slowly!)
+
+45-50s:  Wait... show green line vs gray baseline
+
+50-55s:  Scroll down → show impact metrics (+3 points)
+
+55-60s:  Scroll up → show full app
+
+60s:     DONE! Stop recording
+
+
+THAT'S IT!
+----------
+You now have a complete demo video with professional voiceover.
+
+Export as MP4 and you're done! 🎉
+
+
+===============================================================================
+TIMING CHEAT SHEET (Print this!)
+===============================================================================
+
+What to Say              |  What to Do              | Time
+-------------------------|--------------------------|-------
+"AI-powered system..."   | Show app                 | 0-10s
+"Historical scores..."   | Hover over plot          | 10-20s
+"What-if scenario..."    | Sleep slider → +2        | 20-30s
+"Curve shifts..."        | Wait for update          | 30-40s
+"Physical activity..."   | Activity slider → +20%   | 40-45s
+"Combined interventions" | Show green vs gray       | 45-50s
+"Impact analysis..."     | Scroll to metrics        | 50-55s
+"Data-driven..."         | Scroll to full view      | 55-60s
+"Ready for deployment"   | End                      | 60s
+
+
+===============================================================================

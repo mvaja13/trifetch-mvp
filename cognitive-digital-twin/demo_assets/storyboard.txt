@@ -1,0 +1,283 @@
+===============================================================================
+COGNITIVE DECLINE PREDICTION SYSTEM - VIDEO STORYBOARD
+===============================================================================
+
+TARGET LENGTH: 45-60 seconds
+FORMAT: Screen recording with voiceover
+AUDIENCE: Technical stakeholders, potential clients, research partners
+
+===============================================================================
+SCENE BREAKDOWN
+===============================================================================
+
+-------------------------------------------------------------------------------
+SCENE 1: TITLE CARD (0-5 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Clean title screen with gradient background
+  • Text: "Cognitive Decline Prediction System"
+  • Subtitle: "Multimodal AI for Alzheimer's Disease Forecasting"
+  • Trifetch logo in corner
+
+Voiceover:
+  "Introducing our AI-powered cognitive decline prediction system"
+
+Technical Notes:
+  • Use professional font (e.g., Arial, Helvetica)
+  • Keep design minimal and clean
+  • Optional: Add subtle animation (fade-in)
+
+-------------------------------------------------------------------------------
+SCENE 2: STREAMLIT APP - PATIENT SELECTION (5-12 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Screen recording of Streamlit app
+  • Show sidebar with patient selector
+  • Display patient P005 or similar with moderate decline
+  • Show patient info panel (age, baseline, decline rate)
+
+Action:
+  • Mouse hovers over patient dropdown
+  • Select patient from list
+  • Patient info appears
+
+Voiceover:
+  "Our system analyzes patient data to predict cognitive scores
+   up to 24 months in advance"
+
+Technical Notes:
+  • Zoom in on interface (125-150%)
+  • Clear, smooth mouse movements
+  • Pause briefly on patient info
+
+-------------------------------------------------------------------------------
+SCENE 3: PREDICTION VISUALIZATION (12-22 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Main plot showing cognitive trajectory
+  • Historical scores (blue dots)
+  • Predicted decline curve (orange line)
+  • 95% confidence interval (shaded band)
+  • Actual scores comparison (green squares)
+
+Action:
+  • Animated highlight of key elements:
+    1. Historical data points
+    2. Prediction curve
+    3. Confidence bands
+  • Optional: Draw attention boxes with editing
+
+Voiceover:
+  "Using multimodal data from speech patterns and handwriting,
+   the system generates predictions with confidence intervals,
+   showing both expected decline and uncertainty"
+
+Technical Notes:
+  • Use screen annotation tool for highlights
+  • Slow pan or zoom to show details
+  • Keep plot visible for 5+ seconds
+
+-------------------------------------------------------------------------------
+SCENE 4: WHAT-IF SLIDER DEMO (22-35 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Sidebar what-if controls visible
+  • Sleep hours slider
+  • Physical activity slider
+
+Action:
+  • Adjust sleep slider from 0 to +2 hours (slowly)
+  • Show plot updating in real-time
+  • Gray baseline line appears for comparison
+  • Green intervention curve shows improvement
+  • Adjust activity slider to +20%
+  • Plot updates again
+
+Voiceover:
+  "Healthcare providers can explore what-if scenarios -
+   adjusting factors like sleep and physical activity -
+   to show patients the potential impact of lifestyle changes"
+
+Technical Notes:
+  • Move sliders SLOWLY and deliberately
+  • Pause after each adjustment (1 second)
+  • Show impact metrics in sidebar
+  • Capture smooth real-time updates
+
+-------------------------------------------------------------------------------
+SCENE 5: IMPACT METRICS (35-42 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Close-up on predictions table
+  • Show baseline forecast
+  • Show adjusted forecast with interventions
+  • Highlight impact analysis metrics (+X.XX points)
+
+Action:
+  • Smooth zoom into metrics panel
+  • Optional: Add highlight box or arrow to impact numbers
+
+Voiceover:
+  "The system quantifies intervention impact,
+   helping patients understand how their choices affect outcomes"
+
+Technical Notes:
+  • Clear zoom to make numbers readable
+  • Keep metrics visible for 3-4 seconds
+
+-------------------------------------------------------------------------------
+SCENE 6: PIPELINE OVERVIEW (42-50 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Quick sequence showing:
+    1. Audio waveform icon → "Speech Analysis"
+    2. Stylus trace animation → "Handwriting Analysis"
+    3. Neural network diagram → "AI Fusion Model"
+    4. Graph with prediction → "Cognitive Forecast"
+  • Can be simple slides or screen recordings of plots
+
+Voiceover:
+  "The system combines audio and handwriting biomarkers,
+   processed through deep learning models,
+   to deliver accurate 24-month forecasts"
+
+Technical Notes:
+  • Each element shown for 1-2 seconds
+  • Use simple icons or actual data visualizations
+  • Keep transitions smooth (fade or slide)
+
+Alternative (if time allows):
+  • Show quick snippet of training curves
+  • Display "Test MAE: 2.87 points" metric
+
+-------------------------------------------------------------------------------
+SCENE 7: CLOSING & CTA (50-60 seconds)
+-------------------------------------------------------------------------------
+Visual:
+  • Return to clean screen
+  • Key statistics:
+    • "Test MAE: 2.87 points"
+    • "398K parameters"
+    • "50ms inference time"
+  • Call to action text
+  • Trifetch branding
+
+Text on screen:
+  "Built by Trifetch ML Team"
+  "Contact: [email/website]"
+
+Voiceover:
+  "Ready to deploy for clinical trials and healthcare systems.
+   Contact Trifetch to learn more."
+
+Technical Notes:
+  • Professional closing screen
+  • Keep contact info visible for 3-4 seconds
+  • Optional: Add QR code for easy access
+
+===============================================================================
+PRODUCTION NOTES
+===============================================================================
+
+Recording Setup:
+--------------
+Screen Resolution: 1920x1080 (Full HD)
+Frame Rate: 30 fps minimum
+Recording Software:
+  • macOS: QuickTime, ScreenFlow, or OBS
+  • Windows: OBS, Camtasia, or ScreenFlow
+Browser: Full screen mode (hide bookmarks bar)
+
+Streamlit App Preparation:
+-------------------------
+1. Launch app: streamlit run src/app.py
+2. Select a patient with clear decline (P005 recommended)
+3. Test what-if sliders before recording
+4. Set zoom level: 125-150% for readability
+5. Hide unnecessary UI elements (sidebar toggle)
+
+Audio Recording:
+---------------
+Microphone: Good quality USB or built-in (quiet environment)
+Script: Write out voiceover word-for-word
+Tone: Professional but approachable
+Pacing: Moderate speed, clear enunciation
+Recording: Record audio separately, sync in editing (recommended)
+
+Editing Checklist:
+----------------
+☐ Trim dead space at start/end
+☐ Add fade-in/fade-out transitions
+☐ Sync voiceover precisely with visuals
+☐ Add highlight boxes/arrows for key elements
+☐ Ensure all text is readable
+☐ Export at 1080p, 30fps
+☐ File size < 100MB (compress if needed)
+
+Optional Enhancements:
+--------------------
+• Background music (subtle, royalty-free)
+• Animated transitions between scenes
+• Lower-third graphics for statistics
+• Mouse highlight effect for visibility
+• Subtle zoom/pan for emphasis
+
+===============================================================================
+ALTERNATIVE VERSIONS
+===============================================================================
+
+30-Second Version (Quick Demo):
+------------------------------
+[0-5s]   Title card
+[5-15s]  Streamlit app with prediction plot
+[15-25s] What-if slider adjustment
+[25-30s] Closing with CTA
+
+90-Second Version (Detailed):
+----------------------------
+Add these sections:
+• [60-70s]  Show training curves and performance metrics
+• [70-80s]  Display inference CLI demo
+• [80-90s]  Technical architecture overview
+
+===============================================================================
+DELIVERY FORMATS
+===============================================================================
+
+Primary: MP4 (H.264)
+Resolution: 1920x1080
+Frame Rate: 30 fps
+Bitrate: 5-10 Mbps
+Audio: AAC, 192 kbps
+
+Platforms:
+• YouTube (unlisted or public)
+• LinkedIn video post
+• Company website embed
+• Email attachments (compressed version)
+• Demo presentations
+
+===============================================================================
+SUCCESS CRITERIA
+===============================================================================
+
+✓ Clear demonstration of prediction capability
+✓ What-if functionality clearly visible
+✓ Professional, polished appearance
+✓ Under 60 seconds (attention span)
+✓ All text/numbers readable
+✓ Smooth, professional voiceover
+✓ Compelling call-to-action
+
+===============================================================================
+CONTACT & CREDITS
+===============================================================================
+
+Project: Cognitive Decline Prediction System
+Built by: Trifetch ML Team
+Date: December 2025
+Version: MVP Demo v1.0
+
+For recording questions, see: recording_instructions.txt
+
+===============================================================================

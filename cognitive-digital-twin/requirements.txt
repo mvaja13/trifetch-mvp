@@ -1,0 +1,9 @@
+torch>=1.13
+torchaudio
+transformers
+numpy
+pandas
+streamlit
+matplotlib
+scikit-learn
+scipy

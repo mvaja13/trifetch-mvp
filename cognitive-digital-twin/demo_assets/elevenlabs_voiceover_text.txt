@@ -1,0 +1,266 @@
+===============================================================================
+ELEVENLABS VOICEOVER TEXT - COGNITIVE DECLINE PREDICTION DEMO
+===============================================================================
+
+INSTRUCTIONS:
+1. Go to https://elevenlabs.io
+2. Sign up for free account (10,000 characters/month free)
+3. Copy each segment below
+4. Paste into ElevenLabs text box
+5. Select voice (recommended: "Adam" or "Bella")
+6. Click "Generate"
+7. Download MP3 file
+8. Name as indicated below
+
+===============================================================================
+OPTION 1: INDIVIDUAL SEGMENTS (Recommended for precise timing)
+===============================================================================
+
+SEGMENT 1: INTRO (0-5 seconds)
+Filename: intro.mp3
+---
+Introducing our AI-powered cognitive decline prediction system.
+---
+
+
+SEGMENT 2: OVERVIEW (5-15 seconds)
+Filename: overview.mp3
+---
+Our system analyzes patient data to predict cognitive scores up to twenty-four months in advance.
+---
+
+
+SEGMENT 3: PREDICTION (15-25 seconds)
+Filename: prediction.mp3
+---
+Using multimodal data from speech patterns and handwriting, the system generates predictions with confidence intervals, showing both expected decline and uncertainty.
+---
+
+
+SEGMENT 4: WHAT-IF SCENARIOS (25-35 seconds)
+Filename: whatif.mp3
+---
+Healthcare providers can explore what-if scenarios, adjusting factors like sleep and physical activity, to show patients the potential impact of lifestyle changes.
+---
+
+
+SEGMENT 5: IMPACT (35-42 seconds)
+Filename: impact.mp3
+---
+The system quantifies intervention impact, helping patients understand how their choices affect outcomes.
+---
+
+
+SEGMENT 6: PIPELINE (42-50 seconds)
+Filename: pipeline.mp3
+---
+The system combines audio and handwriting biomarkers, processed through deep learning models, to deliver accurate twenty-four month forecasts.
+---
+
+
+SEGMENT 7: CLOSING (50-60 seconds)
+Filename: closing.mp3
+---
+Ready to deploy for clinical trials and healthcare systems. Contact Trifetch to learn more.
+---
+
+
+===============================================================================
+OPTION 2: FULL CONTINUOUS SCRIPT (Easier, split in video editor)
+===============================================================================
+
+Filename: full_voiceover.mp3
+---
+Introducing our AI-powered cognitive decline prediction system.
+
+Our system analyzes patient data to predict cognitive scores up to twenty-four months in advance.
+
+Using multimodal data from speech patterns and handwriting, the system generates predictions with confidence intervals, showing both expected decline and uncertainty.
+
+Healthcare providers can explore what-if scenarios, adjusting factors like sleep and physical activity, to show patients the potential impact of lifestyle changes.
+
+The system quantifies intervention impact, helping patients understand how their choices affect outcomes.
+
+The system combines audio and handwriting biomarkers, processed through deep learning models, to deliver accurate twenty-four month forecasts.
+
+Ready to deploy for clinical trials and healthcare systems. Contact Trifetch to learn more.
+---
+
+
+===============================================================================
+ELEVENLABS SETTINGS (Recommended)
+===============================================================================
+
+Voice: Adam (professional male) OR Bella (professional female)
+
+Voice Settings:
+- Stability: 50% (balanced between expressive and stable)
+- Clarity + Similarity: 75% (clear and natural)
+- Style Exaggeration: 0% (professional tone)
+- Speaker Boost: ON
+
+Model: Eleven English v1 (or v2 for more natural)
+
+
+===============================================================================
+ALTERNATIVE VOICES TO TRY
+===============================================================================
+
+Professional Male:
+- Adam: Deep, authoritative
+- Josh: Warm, friendly
+- Antoni: Clear, confident
+
+Professional Female:
+- Bella: Smooth, professional
+- Rachel: Clear, articulate
+- Elli: Warm, trustworthy
+
+
+===============================================================================
+FREE ALTERNATIVES (No API key needed)
+===============================================================================
+
+If you don't want to use ElevenLabs, try these free options:
+
+1. GOOGLE TEXT-TO-SPEECH (Free, built-in macOS/Windows)
+   macOS: System Settings > Accessibility > Spoken Content
+   Windows: Settings > Time & Language > Speech
+
+2. NATURALREADERS (Free tier)
+   https://www.naturalreaders.com
+
+3. TTSMAKER (Free, no signup)
+   https://ttsmaker.com
+
+4. GOOGLE CLOUD TTS (Free tier: 1M characters/month)
+   https://cloud.google.com/text-to-speech
+
+
+===============================================================================
+QUICK START GUIDE
+===============================================================================
+
+STEP 1: Go to ElevenLabs
+Visit: https://elevenlabs.io
+Click: "Sign Up" (free account)
+
+STEP 2: Choose Voice
+Click: "Voices" tab
+Select: "Adam" or "Bella"
+Preview: Click play button to hear sample
+
+STEP 3: Generate Audio
+For each segment:
+  1. Copy text from above
+  2. Paste into text box
+  3. Click "Generate"
+  4. Wait 5-10 seconds
+  5. Click "Download"
+  6. Save with correct filename
+
+STEP 4: Organize Files
+Create folder: demo_assets/voiceover/
+Save all MP3 files there
+
+STEP 5: Use in Video
+Import to video editor (iMovie, Premiere, etc.)
+Sync with screen recording
+Adjust timing as needed
+
+
+===============================================================================
+TIMING TIPS
+===============================================================================
+
+- Average speaking rate: 150 words per minute
+- Intro segment: ~2 seconds (very short)
+- Main segments: 8-12 seconds each
+- Allow 0.5-1 second pause between sentences
+- Total should be 45-60 seconds
+
+If too fast: Adjust "Speed" slider in ElevenLabs (0.75x - 0.9x)
+If too slow: Adjust "Speed" slider (1.1x - 1.25x)
+
+
+===============================================================================
+QUALITY CHECKS
+===============================================================================
+
+✓ Clear pronunciation (no mumbling)
+✓ Natural pacing (not too fast/slow)
+✓ Professional tone (not too casual)
+✓ Consistent volume across segments
+✓ No background noise
+✓ Proper pauses between sentences
+
+
+===============================================================================
+TROUBLESHOOTING
+===============================================================================
+
+Problem: Voice sounds robotic
+Solution: Reduce "Stability" to 40%, increase "Style" to 20%
+
+Problem: Pronunciation wrong
+Solution: Use phonetic spelling (e.g., "24 months" → "twenty-four months")
+
+Problem: Audio too short
+Solution: Add pauses with commas or periods
+
+Problem: Audio too long
+Solution: Remove filler words, use more concise language
+
+
+===============================================================================
+CHARACTER COUNT (for free tier planning)
+===============================================================================
+
+Total characters (all segments): ~780 characters
+Free tier limit: 10,000 characters/month
+You can generate: ~12 full demo scripts per month
+
+Tip: Generate all segments in one session to avoid re-login
+
+
+===============================================================================
+EXPORT SETTINGS
+===============================================================================
+
+From ElevenLabs:
+- Format: MP3 (default)
+- Quality: High (default)
+- Sample rate: 44.1 kHz
+
+For video editing:
+- Keep original MP3 files
+- Import directly to editor
+- No conversion needed
+
+
+===============================================================================
+NEXT STEPS AFTER GENERATION
+===============================================================================
+
+1. Review all audio files
+2. Check timing against storyboard
+3. Import to video editor
+4. Sync with screen recording
+5. Adjust volume levels
+6. Add fade in/out effects
+7. Export final video
+
+
+===============================================================================
+SUPPORT
+===============================================================================
+
+ElevenLabs Documentation: https://docs.elevenlabs.io
+ElevenLabs Discord: https://discord.gg/elevenlabs
+Tutorial videos: YouTube "ElevenLabs tutorial"
+
+For this project:
+- See: demo_assets/storyboard.txt
+- See: demo_assets/recording_instructions.txt
+
+===============================================================================
